@@ -1,0 +1,68 @@
+body {
+    background-color: antiquewhite;
+}
+
+.navbar {
+    background-color: cadetblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    padding-left: 80px;
+}
+
+.navbarLists {
+    background-color: cadetblue;
+    height: 120px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        float: right;
+        border-right: 1px solid beige;
+    }
+      
+    li a {
+        font-family: "Jaini Purva", sans-serif;
+        font-size: 25px;
+        display: block;
+        color:rgb(54, 9, 118);
+        text-align: center;
+        padding: 70px 50px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: aqua;
+        text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    li:last-child {
+        border-left: none;
+    }
+  }
+
+
+  .leftColumn {
+    background-color: white;
+    top: 190px;
+    margin-top: 0;
+    width: 900px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+
+.video {
+    position: fixed;
+    top: 190px; /* Initial position off-screen */
+    right: 0;
+    width: 100%;  /* Span the entire width */
+    text-align: right;  /* Center the video horizontally */
+    margin-top: 0;
+}
