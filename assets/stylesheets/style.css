@@ -1,0 +1,164 @@
+/* the background color of the whole page*/
+body {
+    background-color: antiquewhite;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+/*this is the taller navbar with the lighter color*/
+.navbar {
+    background-color: cadetblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-bottom: 100px;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    padding-left: 90px;
+}
+
+/* The darker, thinner navbar on top of the page with all the menu options*/
+.navbarLists {
+    background-color: rgb(57, 112, 112);
+    height: 49px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+
+    /* position of the menu options to the right*/
+    li {
+        float: right;
+        border-right: 1px solid beige;
+    }
+    
+    /* the text for the menu*/
+    li a {
+        font-family: "Orbitron", sans-serif;
+        font-size: 15px;
+        display: block;
+        color: antiquewhite;
+        text-align: center;
+        padding: 15px 50px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: rgb(36, 61, 61);
+    }
+
+    li:last-child {
+        border-left: none;
+    }
+  }
+
+  .centerColumn {
+    background-color: white;
+    top: 190px;
+    width: 760px;
+    height: 530px;
+    margin-bottom: 20px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+  .video {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  /* This container behind of the video container (centerColumn) It holds the performer's images*/
+  .performersContainer {
+        position: relative;
+        top: 200px;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        display: flex; /* Added for flexbox layout */
+        justify-content: space-between; /* Added for alignment */
+  }
+  
+  /* positioning of the images*/
+  .leftCredit,
+  .rightCredit {
+    width: 20%;
+    list-style: none;
+    padding: 0;
+
+    li a:hover {
+        opacity: 50%;
+    }
+  }
+
+  /* Direction of the images */
+  .leftCredit {
+    text-align: left;
+  }
+
+  .rightCredit {
+    text-align: right;
+  }
+
+  /* each image to the right */
+  .troast,
+  .ego,
+  .fineman {
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 83px;
+    border-radius: 10px;
+  }
+
+  .snl,
+  .ryan,
+  .chris {
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 83px;
+    border-radius: 10px;
+  }
+
+.performersTitle {
+    color: rgb(57, 112, 112);
+    font-family: "Orbitron", sans-serif;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+}
+
+.aboutWrapper {
+    min-height: 100vh;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;  
+    background-color: white;
+    margin: 50px;
+    padding: 50px 70px;
+}
+
+.aboutStyle {
+    font-family: "Orbitron", sans-serif;
+    font-size: 14px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+}

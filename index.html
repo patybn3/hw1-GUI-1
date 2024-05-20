@@ -13,14 +13,79 @@ Copyright (c) 2024 by Patricia Antlitz.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework 1</title>
     <!-- stylesheets -->
-    <link rel="stylesheet" href="assets/stylesheets/style.css">
-    <!-- scripts -->
-    <script src="assets/mainJS/script.js"></script>
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
+    <!-- JavaScript script if needed -->
+    <script src="./assets/mainJS/script.js"></script>
+    <!-- Font For Navbar Text-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaini+Purva&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- page content -->
-    <h1>This is an example title</h1>
-    <p>This is a paragraph Im adding</p>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul class="navbarLists">
+            <li><a href="#performers">PERFORMERS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#home">HOME</a></li>
+            <a href="#home"><img src="media/logo.png" width="420" height="200" class="logo"></a>
+        </ul>
+    </nav>
+    <!-- Main wrap -->
+    <main class="main-content">
+    <!-- Credits, left -->
+    <div class="performersContainer" id="home">
+        <ul class="leftCredit">
+            <h4 class="performersTitle">PERFORMERS</h4>
+            <li><a href="#snl"><img src="media/SNL.jpg" width="110px" height="110px" class="snl"></a></li>
+            <li><a href="#ryan"><img src="media/RyanGosling.jpg" width="110px" height="110px" class="ryan"></a></li>
+            <li><a href="#chris"><img src="media/ChrisStapleton.jpg" width="110px" height="110px" class="chris"></a></li>
+        </ul>
+        <!-- Credits, right -->
+        <ul class="rightCredit">
+            <h4 class="performersTitle">PERFORMERS</h4>
+            <li><a href="#troast"><img src="media/chloeTroast.jpg" width="110px" height="110px" class="troast"></a></li>
+            <li><a href="#ego"><img src="media/Ego.jpeg" width="110px" height="110px" class="ego"></a></li>
+            <li><a href="#chloe"><img src="media/Chloe Fineman.jpg" width="110px" height="110px" class="fineman"></a></li>
+        </ul>
+    </div>
+    </main>
+    <!-- About -->
+    <div class="aboutWrapper">
+    <div class="aboutStyle" id="about">
+        <h1 style="color: rgb(57, 112, 112);">ABOUT</h1>
+        <h3 style="color: deeppink;">Hold Up, Girl! SNL's "Get That Boy Back" Serves Up Side-Splitting Revenge</h3>
+        <p>Calling all scorned sisters! This side-splitting music video from SNL features a 
+            powerhouse trio:
+            <br><br>
+            Ego Nwodim, Chloe Fineman, and Chloe Troast
+            <br><br>
+            unleashing their hilarious 
+            fury through song after some serious boyfriend betrayal.</p>
 
+        <p>But wait, there's more! The heartthrob himself, Ryan Gosling, makes a special appearance as the 
+            target of their musical scorn, while country music heavyweight Chris Stapleton joins the fun.</p>
+        
+        <h3 style="color: deeppink;">Get Ready For:</h3>
+        <ul>
+            <li>A laugh-out-loud anthem about getting even (in the funniest way possible)</li>
+            <li>A catchy tune that'll have you singing "get that boy back" long after the video ends</li>
+            <li>A hilarious twist on the classic revenge narrative</li>
+            <li>Special guest appearances by Ryan Gosling and Chris Stapleton that you won't want to miss!</li>
+        </ul>
+    </div>
+    </div>
+    
+    <!-- Video -->
+    <div class="centerColumn">
+        <div class="video">
+            <iframe width="720" height="475" src="https://www.youtube.com/embed/SLQnU63I3IQ?si=hkMo9KXjxFAOZARp?autoplay=1&mute=1" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
 </body>
 </html>
