@@ -28,6 +28,7 @@ Copyright (c) 2024 by Patricia Antlitz.
 <body>
     <!-- page content -->
     <!-- Navbar -->
+    <div id="home"></div>
     <nav class="navbar">
         <ul class="navbarLists">
             <li><a href="#performers">PERFORMERS</a></li>
@@ -39,12 +40,15 @@ Copyright (c) 2024 by Patricia Antlitz.
     <!-- Main wrap -->
     <main class="main-content">
     <!-- Credits, left -->
-    <div class="performersContainer" id="home">
+    <div class="performersContainer">
         <ul class="leftCredit">
             <h4 class="performersTitle">PERFORMERS</h4>
             <li><a href="#snl"><img src="media/SNL.jpg" width="110px" height="110px" class="snl"></a></li>
             <li><a href="#ryan"><img src="media/RyanGosling.jpg" width="110px" height="110px" class="ryan"></a></li>
-            <li><a href="#chris"><img src="media/ChrisStapleton.jpg" width="110px" height="110px" class="chris"></a></li>
+            <!-- I am adding the id "about here, even though this is not the about section so it forces the "about" link from
+            the navbar to jump to the section desired. This is a work around the problem I was having and I imagine its not the preferrable
+            solution. -->
+            <li><a href="#chris" id="about"><img src="media/ChrisStapleton.jpg" width="110px" height="110px" class="chris"></a></li>
         </ul>
         <!-- Credits, right -->
         <ul class="rightCredit">
@@ -57,7 +61,7 @@ Copyright (c) 2024 by Patricia Antlitz.
     </main>
     <!-- About -->
     <div class="aboutWrapper">
-    <div class="aboutStyle" id="about">
+    <div class="aboutStyle">
         <h1 style="color: teal">ABOUT</h1>
         <h3 style="color: deeppink;">Hold Up, Yall! SNL's "Get That Boy Back" Serves Up Side-Splitting Revenge</h3>
         <p class="text">Have you ever been scrolling through social media and stumbled upon something so funny you just had to share it with the world? That's exactly what happened to me with the SNL skit "Get That Boy Back."
