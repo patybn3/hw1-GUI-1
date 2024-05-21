@@ -36,32 +36,32 @@ body {
   margin: 0;
   padding: 0;
   z-index: 10;
+}
 
   /* position of the menu options to the right*/
-  li {
-      float: right;
-      border-right: 1px solid beige;
-  }
-  
-  /* the text for the menu*/
-  li a {
-      font-family: "Orbitron", sans-serif;
-      font-size: 15px;
-      display: block;
-      color: antiquewhite;
-      text-align: center;
-      padding: 15px 50px;
-      text-decoration: none;
-  }
+.navbarLists li {
+    float: right;
+    border-right: 1px solid beige;
+}
 
-  /* Colot changes on hover */
-  li a:hover {
-      background-color: rgb(36, 61, 61);
-  }
+/* the text for the menu*/
+.navbarLists li a {
+    font-family: "Orbitron", sans-serif;
+    font-size: 15px;
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+}
 
-  li:last-child {
-      border-left: none;
-  }
+/* Colot changes on hover */
+.navbarLists li a:hover {
+    background-color: rgb(36, 61, 61);
+}
+
+.navbarLists li:last-child {
+    border-left: none;
 }
 
 /* This is the div that holds the video */
