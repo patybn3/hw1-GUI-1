@@ -29,6 +29,9 @@ W3C CSS Validation Service: http://jigsaw.w3.org/css-validator
 
 This project was developed on a laptop 13 inches. Its specific for a browser size of 1440 x 757. Devices with different screen sized might have a different view. It is responsive, however, it has no mobile/adaptive configurations. This project is meant to be a simple web page, and the assignment did not require it to have the previously mentioned features.
 
+## PLEASE NOTE:
+There are some minor css styling inside of the HTML folder. I do not think it is necessary to create a whole new call inside of the css file to change the color of one piece of text.
+
 ### RUN
 
 to run the source code, open the html file on your browser, or run the command `python3 ` on the terminal inside of the repository's folder
