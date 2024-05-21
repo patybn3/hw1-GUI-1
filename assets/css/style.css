@@ -127,6 +127,8 @@ body {
 /* the "fading" of the image (opacity) will decrease and increase smoothly */
 .imgLabel img {
   transition: ease-in-out, transform 0.1s ease-in-out; /* Add transform transition */
+  width: 110px;
+  height: 110px;
 }
 
 /* This is the actual text that appears when hovring over the images */
