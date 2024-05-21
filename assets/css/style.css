@@ -90,7 +90,7 @@ body {
 /* This container behind of the centerColumn. It holds the performer's images */
 .featuredContainer {
   position: relative;
-  top: 150px;
+  top: 160px;
   height: 100%;
   z-index: 0;
   display: flex; /* Added for flexbox layout */
