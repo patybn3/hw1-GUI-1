@@ -48,6 +48,8 @@ No dependencies necessary
 
 The id's used to allow links to jump to a certain part of the web page had to be placed on parts of the HTML code that does not belong to the specific `<div>` we are attempting to reach. That is because the navbar is fixed. it will scroll down as the page scrolls and it covers the beggining of each section. Refer to the code comments.
 
+I added an autoplayer for my video but it didnt work, it worked with another video though. Not sure why.
+
 ### Sources:
 RGB color picker:
 https://rgbcolorcode.com/

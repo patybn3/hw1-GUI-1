@@ -53,6 +53,7 @@ body {
       text-decoration: none;
   }
 
+  /* Colot changes on hover */
   li a:hover {
       background-color: rgb(36, 61, 61);
   }
@@ -62,6 +63,7 @@ body {
   }
 }
 
+/* This is the div that holds the video */
 .centerColumn {
   background-color: white;
   top: 175px;
@@ -85,7 +87,7 @@ body {
   margin-top: 0;
 }
   
-/* This container behind of the video container (centerColumn) It holds the performer's images*/
+/* This container behind of the centerColumn. It holds the performer's images */
 .featuredContainer {
   position: relative;
   top: 150px;
@@ -95,7 +97,7 @@ body {
   justify-content: space-between; /* Added for alignment */
 }
 
-/* positioning of the images*/
+/* positioning of the images */
 .leftCredit,
 .rightCredit {
   width: 20%;
@@ -112,20 +114,22 @@ body {
   text-align: right;
 }
 
+/* This label holds text that shows when the mouse hovers on the image */
 .imgLabel {
   position: relative; /* Needed for proper text positioning */
   overflow: hidden;
 }
 
-/* This is here so*/
 .imgLabel:hover img {
   opacity: 40%;
 }
 
+/* the "fading" of the image (opacity) will decrease and increase smoothly */
 .imgLabel img {
   transition: ease-in-out, transform 0.1s ease-in-out; /* Add transform transition */
 }
 
+/* This is the actual text that appears when hovring over the images */
 .imgLabel p.hoverText {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -158,6 +162,7 @@ body {
   border-radius: 10px;
 }
 
+/* each image to the left */
 .snl,
 .ryan,
 .chris {
@@ -168,6 +173,7 @@ body {
   border-radius: 10px;
 }
 
+/* "Features:" text on top of Home's images */
 .featuredTitle {
   color: rgb(57, 112, 112);
   font-family: "Orbitron", sans-serif;
@@ -176,6 +182,7 @@ body {
   text-align: center;
 }
 
+/* About div */
 .aboutWrapper {
   position: relative; /* Already set for proper anchor behavior */
   background-color: white;
@@ -186,6 +193,7 @@ body {
   border-radius: 10px;
 }
 
+/* text styling for stand out text on the about me session */
 .aboutStyle {
   font-family: "Orbitron", sans-serif;
   font-size: 14px;
@@ -193,12 +201,14 @@ body {
   left: 0;
 }
 
+/* regular text on the about me session */
 .text {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: midnightblue;
 }
 
+/* "PERFORMERS" text for performer's section */
 .performersTitle {
   color: teal;
   font-family: "Orbitron", sans-serif;
@@ -206,8 +216,9 @@ body {
   padding: 10px 40px;
 }
 
+/* the div that hold the section */
 .performersWrapper {
-  position: relative; /* Already set for proper anchor behavior */
+  position: relative;
   background-color: white;
   border-radius: 10px;
   margin: 50px;
@@ -215,28 +226,24 @@ body {
   border-radius: 10px;
 }
 
+/* table set up */
 table {
-  width: 100%;  /* Adjust table width as needed */
-  border-collapse: collapse; /* Remove default cell spacing */
+  width: 100%;  /* will take the whole div */
+  border-collapse: collapse;
 }
 
 th, td {
-  text-align: left;  /* Align content to the left */
-  padding: 15px;  /* Add some padding for better readability */
-  border: 1px solid #ddd;  /* Add borders for separation */
+  text-align: left;
+  padding: 15px;
+  border: 1px solid rgba(221, 221, 221, 1);
 }
 
 th {
-  background-color: #f2f2f2;  /* Light background for headers */
+  background-color: rgb(242,242,242);
 }
 
-tbody tr:nth-child(even) { /* Alternate row background color */
-  background-color: #fafafa;
-}
-
-.tableText {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+tbody tr:nth-child(even) {
+  background-color: rgb(242,242,242);
 }
 
 #footer {

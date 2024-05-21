@@ -23,15 +23,17 @@ Copyright (c) 2024 by Patricia Antlitz.
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="media/Icon.png" type="image/x-icon" class="icon">
 </head>
 <body>
     <!-- page content -->
     <!-- Navbar -->
-    <div id="home"></div>
+    <div id="home"></div> <!-- Place here in order to bring the page up all the way to the top when clicking -->
     <nav class="navbar">
         <ul class="navbarLists">
             <!-- Logo -->
-            <a href=""><img src="media/logo.png" width="420" height="200" class="logo" id="home" alt="Get That Boy Back's Logo"></a>
+            <a href="#home"><img src="media/logo.png" width="420" height="200" class="logo" id="home" alt="Get That Boy Back's Logo"></a>
             <li><a href="#performers">PERFORMERS</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#home">HOME</a></li>
@@ -40,61 +42,61 @@ Copyright (c) 2024 by Patricia Antlitz.
 
     <!-- Main wrap -->
     <main class="mainContent">
+        <!-- Featured Section, left -->
+        <div class="featuredContainer">
+            <ul class="leftCredit">
+                <h4 class="featuredTitle">FEATURES:</h4>
+                
+                <!-- SNL -->
+                <div class="imgLabel">
+                    <li><a href="https://www.nbc.com/saturday-night-live/about" target="_blank"><img src="media/SNL.jpg" width="110px" height="110px" class="snl" alt="Saturday Night Live Image"></a></li>
+                    <p class="hoverText">snl</p>
+                </div>
+                <!-- Ryan Gosling -->
+                <div class="imgLabel">
+                    <li><a href="#ryanID"><img src="media/RyanGosling.jpg" width="110px" height="110px" class="ryan" alt="Image of Ryan Gosling"></a></li>
+                    <p class="hoverText">Ryan Gosling</p>
+                </div>
+                <!-- Chris Stapleton -->
+                <div class="imgLabel">
+                    <li><a href="#chrisID"><img src="media/ChrisStapleton.jpg" width="110px" height="110px" class="chris" alt="Image of Chris Stapleton"></a></li>
+                    <p class="hoverText">Chris Stapleton</p>
+                </div>
+            </ul>
 
-    <!-- Featured Section, left -->
-    <div class="featuredContainer">
-        <ul class="leftCredit">
-            <h4 class="featuredTitle">FEATURES:</h4>
-            
-            <!-- SNL -->
-            <div class="imgLabel">
-            <li><a href="https://www.nbc.com/saturday-night-live/about" target="_blank"><img src="media/SNL.jpg" width="110px" height="110px" class="snl" alt="Saturday Night Live Image"></a></li>
-            <p class="hoverText">snl</p>
-            </div>
-            <!-- Ryan Gosling -->
-            <div class="imgLabel">
-            <li><a href="#ryanID"><img src="media/RyanGosling.jpg" width="110px" height="110px" class="ryan" alt="Image of Ryan Gosling"></a></li>
-            <p class="hoverText">Ryan Gosling</p>
-            </div>
-            <!-- Chris Stapleton -->
-            <div class="imgLabel">
-            <li><a href="#chrisID"><img src="media/ChrisStapleton.jpg" width="110px" height="110px" class="chris" alt="Image of Chris Stapleton"></a></li>
-            <p class="hoverText">Chris Stapleton</p>
-            </div>
-        </ul>
+            <!-- Featured Section, right -->
+            <ul class="rightCredit">
+                <h4 class="featuredTitle">FEATURES</h4>
+                
+                <!-- Chloe Troast -->
+                <div class="imgLabel">
+                    <li><a href="#troastID"><img src="media/chloeTroast.jpg" width="110px" height="110px" class="troast" alt="Image of Chloe Troast"></a></li>
+                    <p class="hoverText">Chloe Troast</p>
+                </div>
+                
+                <!-- Ego Nwodim -->
+                <div class="imgLabel">
+                    <li><a href="#egoID"><img src="media/Ego.jpeg" width="110px" height="110px" class="ego" alt="Image of Ego Nwodim"></a></li>
+                    <p class="hoverText">Ego Nwodim</p>
+                </div>
 
-        <!-- Featured Section, right -->
-        <ul class="rightCredit">
-            <h4 class="featuredTitle">FEATURES</h4>
-            
-            <!-- Chloe Troast -->
-            <div class="imgLabel">
-            <li><a href="#troastID"><img src="media/chloeTroast.jpg" width="110px" height="110px" class="troast" alt="Image of Chloe Troast"></a></li>
-            <p class="hoverText">Chloe Troast</p>
-            </div>
-            
-            <!-- Ego Nwodim -->
-            <div class="imgLabel">
-            <li><a href="#egoID"><img src="media/Ego.jpeg" width="110px" height="110px" class="ego" alt="Image of Ego Nwodim"></a></li>
-            <p class="hoverText">Ego Nwodim</p>
-            </div>
-
-            <!-- Chloe Fineman -->
-            <div class="imgLabel">
-            <li><a href="#chloeID"><img src="media/Chloe Fineman.jpg" width="110px" height="110px" class="fineman" alt="Image of Chloe Fineman"></a></li>
-            <p class="hoverText">Chloe Fineman</p>
-            </div>
-        </ul>
-    </div>
+                <!-- Chloe Fineman -->
+                <div class="imgLabel">
+                    <li><a href="#chloeID"><img src="media/Chloe Fineman.jpg" width="110px" height="110px" class="fineman" alt="Image of Chloe Fineman"></a></li>
+                    <p class="hoverText">Chloe Fineman</p>
+                </div>
+            </ul>
+        </div>
     </main>
 
     <!-- About Section -->
     <div id="about"></div></div>
     <div class="aboutWrapper">
-    <div class="aboutStyle">
-        <h1 style="color: teal">ABOUT</h1>
-        <h3 style="color: deeppink;">Hold Up, Yall! <br> SNL's "Get That Boy Back" Serves Up Side-Splitting Revenge</h3>
-        <p class="text">Have you ever been scrolling through social media and stumbled upon something so funny you just had to share it with the world? That's exactly what happened to me with the SNL skit "Get That Boy Back."
+        <div class="aboutStyle">
+            <h1 style="color: teal">ABOUT</h1>
+            <h3 style="color: deeppink;">Hold Up, Yall! <br> SNL's "Get That Boy Back" Serves Up Side-Splitting Revenge</h3>
+        
+            <p class="text">Have you ever been scrolling through social media and stumbled upon something so funny you just had to share it with the world? That's exactly what happened to me with the SNL skit "Get That Boy Back."
             <br><br>
             One day, browsing on Instagram, I came across a short clip of this music video. It had me laughing out loud instantly. I knew I had to find the full version, and after a quick YouTube search, I discovered the brilliance of the entire skit.
             <br><br>
@@ -102,168 +104,168 @@ Copyright (c) 2024 by Patricia Antlitz.
             <br>
             Award-winning actor <strong>Ryan Gosling</strong> and country music legend <strong>Chris Stapleton</strong>.
             <br><br>
-        </p>
-        <h3 style="color: deeppink;">Sharing the Laughter</h3>
-        <p class="text">I created this page because I want others to experience the same joy I did when I first saw this video. It's a reminder that laughter is the best medicine, and sometimes all you need is a good dose of SNL humor to brighten your day.</p>
-        <h2 class="text">So, sit back, hit play, and get ready to laugh along with "Get That Boy Back"!</h2>
-        <br>
-        <h2 style="color:teal;">You're welcome!!!.....!</h2>
-    </div>
+            </p>
+
+            <h3 style="color: deeppink;">Sharing the Laughter</h3>
+            <p class="text">I created this page because I want others to experience the same joy I did when I first saw this video. It's a reminder that laughter is the best medicine, and sometimes all you need is a good dose of SNL humor to brighten your day.</p>
+            <h2 class="text">So, sit back, hit play, and get ready to laugh along with "Get That Boy Back"!</h2>
+            <br>
+            <h2 style="color:teal;">You're welcome!!!.....!</h2>
+        </div>
     </div>
 
     <!-- Performers and Tables-->
     <div class="performersWrapper" id="performers">
         <h1 class="performersTitle"> PERFORMERS </h1>
         <h1 class="performersTitle" style="color: deeppink;">Ryan Gosling</h1>
-    <table>
-        <thead>
-          <tr class="featuredTitle">
-            <th>Picture</th>
-            <th>Name</th>
-            <th>Occupation</th>
-            <th>Genre</th>
-            <th>Active Years</th>
-            <th>Website</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="tableText">
-            <td><img src="media/RG.jpg" alt="Ryan Gosling"></td>
-            <td>Ryan Thomas Gosling</td>
-            <td>Actor</td>
-            <th>Multiple</th>
-            <td>1993 - Present</td>
-            <td><a href="https://en.wikipedia.org/wiki/Ryan_Gosling" target="_blank">Wikipedia</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <br>
-      <br>
+        <!-- Tables -->
+        <table>
+            <thead>
+                <tr class="featuredTitle">
+                    <th>Picture</th>
+                    <th>Name</th>
+                    <th>Occupation</th>
+                    <th>Genre</th>
+                    <th>Active Years</th>
+                    <th>Website</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text">
+                    <td><img src="media/RG.jpg" alt="Ryan Gosling"></td>
+                    <td>Ryan Thomas Gosling</td>
+                    <td>Actor</td>
+                    <td>Multiple</td>
+                    <td>1993 - Present</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Ryan_Gosling" target="_blank" style="color: crimson;">Wikipedia</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
 
-      <!-- Chris Stapleton Table-->
-      <h1 class="performersTitle" style="color: deeppink;">Chris Stapleton</h1>
-    <table>
-        <thead>
-          <tr class="featuredTitle">
-            <th>Picture</th>
-            <th>Name</th>
-            <th>Occupation</th>
-            <th>Genre</th>
-            <th>Active Years</th>
-            <th>Website</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="tableText">
-            <td><img src="media/CS.jpg" alt="Chris Stapleton"></td>
-            <td>Christopher Alvin Stapleton</td>
-            <td>Singer</td>
-            <td>Country Music</td>
-            <td>2001 - Present</td>
-            <td><a href="https://www.chrisstapleton.com/" target="_blank">Website</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <br>
-      <br>
+        <!-- Chris Stapleton Table-->
+        <h1 class="performersTitle" style="color: deeppink;">Chris Stapleton</h1>
+        <table>
+            <thead>
+                <tr class="featuredTitle">
+                    <th>Picture</th>
+                    <th>Name</th>
+                    <th>Occupation</th>
+                    <th>Genre</th>
+                    <th>Active Years</th>
+                    <th>Website</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text">
+                    <td><img src="media/CS.jpg" alt="Chris Stapleton"></td>
+                    <td>Christopher Alvin Stapleton</td>
+                    <td>Singer</td>
+                    <td>Country Music</td>
+                    <td>2001 - Present</td>
+                    <td><a href="https://www.chrisstapleton.com/" target="_blank" style="color: crimson;">Website</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
 
-    <!-- -->
-    <div id="ryanID"></div>
+        <!-- -->
+        <div id="ryanID"></div>
 
-      <!-- Chloe T Table-->
-      <h1 class="performersTitle" style="color: deeppink;">Chloe Troast</h1>
-    <table>
-        <thead>
-          <tr class="featuredTitle">
-            <th>Picture</th>
-            <th>Name</th>
-            <th>Occupation</th>
-            <th>Genre</th>
-            <th>Active Years</th>
-            <th>Website</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="tableText">
-            <td><img src="media/CT.jpg" alt="Chloe Troast"></td>
-            <td>Chloe Eileen Troast</td>
-            <td>Actress</td>
-            <td>Comedian</td>
-            <td>2019 - Present</td>
-            <td><a href="https://en.wikipedia.org/wiki/Chloe_Troast" target="_blank">Wikipedia</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <br>
-      <br>
+        <!-- Chloe T Table-->
+        <h1 class="performersTitle" style="color: deeppink;">Chloe Troast</h1>
+        <table>
+            <thead>
+                <tr class="featuredTitle">
+                    <th>Picture</th>
+                    <th>Name</th>
+                    <th>Occupation</th>
+                    <th>Genre</th>
+                    <th>Active Years</th>
+                    <th>Website</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text">
+                    <td><img src="media/CT.jpg" alt="Chloe Troast"></td>
+                    <td>Chloe Eileen Troast</td>
+                    <td>Actress</td>
+                    <td>Comedian</td>
+                    <td>2019 - Present</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Chloe_Troast" target="_blank" style="color: crimson;">Wikipedia</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
 
-      <!-- -->
-      <div id="chrisID"></div>
-      
-      <!-- E.N. Table-->
-      <h1 class="performersTitle" style="color: deeppink;">Ego Nwodim</h1>
-    <table>
-        <thead>
-          <tr class="featuredTitle">
-            <th>Picture</th>
-            <th>Name</th>
-            <th>Occupation</th>
-            <th>Genre</th>
-            <th>Active Years</th>
-            <th>Website</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="tableText">
-            <td><img src="media/EN.jpg" alt="Ego Nwodim"></td>
-            <td>Egobunma Kelechi Nwodim</td>
-            <td>Actress</td>
-            <td>Comedian</td>
-            <td>2012 - Present</td>
-            <td><a href="https://en.wikipedia.org/wiki/Ego_Nwodim" target="_blank">Wikipedia</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <br>
-      <br>
+        <!-- -->
+        <div id="chrisID"></div>
+        
+        <!-- E.N. Table-->
+        <h1 class="performersTitle" style="color: deeppink;">Ego Nwodim</h1>
+        <table>
+            <thead>
+                <tr class="featuredTitle">
+                    <th>Picture</th>
+                    <th>Name</th>
+                    <th>Occupation</th>
+                    <th>Genre</th>
+                    <th>Active Years</th>
+                    <th>Website</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text">
+                    <td><img src="media/EN.jpg" alt="Ego Nwodim"></td>
+                    <td>Egobunma Kelechi Nwodim</td>
+                    <td>Actress</td>
+                    <td>Comedian</td>
+                    <td>2012 - Present</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Ego_Nwodim" target="_blank" style="color: crimson;">Wikipedia</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
 
-      <!-- -->
-      <div id="troastID"></div>
-      
-      <!-- Chloe Fineman's Table-->
-      <h1 class="performersTitle" style="color: deeppink;">Chloe Fineman</h1>
-    <table>
-        <thead>
-          <tr class="featuredTitle">
-            <th>Picture</th>
-            <th>Name</th>
-            <th>Occupation</th>
-            <th>Genre</th>
-            <th>Active Years</th>
-            <th>Website</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="tableText">
-            <td><img src="media/CF.jpg" alt="Chloe Fineman"></td>
-            <td>Chloe Fineman</td>
-            <td>Actress</td>
-            <td>Comedian</td>
-            <td>2018 - Present</td>
-            <td><a href="https://en.wikipedia.org/wiki/Chloe_Fineman" target="_blank">Wikipedia</td>
-          </tr>
-        </tbody>
-      </table>
+        <!-- -->
+        <div id="troastID"></div>
+        
+        <!-- Chloe Fineman's Table-->
+        <h1 class="performersTitle" style="color: deeppink;">Chloe Fineman</h1>
+        <table>
+            <thead>
+                <tr class="featuredTitle">
+                    <th>Picture</th>
+                    <th>Name</th>
+                    <th>Occupation</th>
+                    <th>Genre</th>
+                    <th>Active Years</th>
+                    <th>Website</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text">
+                    <td><img src="media/CF.jpg" alt="Chloe Fineman"></td>
+                    <td>Chloe Fineman</td>
+                    <td>Actress</td>
+                    <td>Comedian</td>
+                    <td>2018 - Present</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Chloe_Fineman" target="_blank" style="color: crimson;">Wikipedia</td>
+                </tr>
+            </tbody>
+        </table>
 
-      <!-- -->
-      <div id="egoID"></div>
-
+        <!-- -->
+        <div id="egoID"></div>
     </div>
-
     <!-- -->
     <div id="chloeID"></div>
 
@@ -271,9 +273,9 @@ Copyright (c) 2024 by Patricia Antlitz.
     <div class="centerColumn">
         <div class="video">
             <iframe width="720" height="475" src="https://www.youtube.com/embed/SLQnU63I3IQ?si=hkMo9KXjxFAOZARp?autoplay=1&mute=1" 
-                title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>
         </div>
     </div>
@@ -282,6 +284,7 @@ Copyright (c) 2024 by Patricia Antlitz.
         <p style="margin-left: 30px; color: antiquewhite;">&copy; 2024 Patricia Antlitz  -  
         <a href="https://github.com/patybn3" style="color: cyan;" target="_blank">Github Page</a></p>
     </div>
+
     <!-- JavaScript script if needed -->
     <script src="assets/mainJS/script.js"></script>
 </body>
