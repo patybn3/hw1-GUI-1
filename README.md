@@ -29,6 +29,27 @@ W3C CSS Validation Service: http://jigsaw.w3.org/css-validator
 
 This project was developed on a laptop 13 inches. Its specific for a browser size of 1440 x 757. Devices with different screen sized might have a different view. It is responsive, however, it has no mobile/adaptive configurations. This project is meant to be a simple web page, and the assignment did not require it to have the previously mentioned features.
 
+### RUN
+
+to run the source code, open the html file on your browser, or run the command `python3 ` on the terminal inside of the repository's folder
+
+### Dependencies
+
+No dependencies necessary
+
+### Technologies Used:
+
+- HTML5
+- CSS 5
+
+.js file - smooth scroll
+
+### Issues
+
+The id's used to allow links to jump to a certain part of the web page had to be placed on parts of the HTML code that does not belong to the specific `<div>` we are attempting to reach. That is because the navbar is fixed. it will scroll down as the page scrolls and it covers the beggining of each section. Refer to the code comments.
+
+I added an autoplayer for my video but it didnt work, it worked with another video though. Not sure why.
+
 ### Sources:
 RGB color picker:
 https://rgbcolorcode.com/
